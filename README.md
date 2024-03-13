@@ -3,8 +3,7 @@ MQTT stands for Message Queuing Telemetry Transport. It's a lightweight messagin
 
 ### 1. Installing paho-mqtt
 First you need to install paho-mqtt library, to implement mqtt communication.
-`pip install paho-mqtt`
-I had a problem with the version, so I installed new version with `pip install paho-mqtt==1.5.1` command.
+`pip install paho-mqtt==1.5.1`
 ### 2. Installing broker
 It communicates between MQTT clients, providing message routing, delivery, and management features. I chose mosquitto broker.
 ```bash
