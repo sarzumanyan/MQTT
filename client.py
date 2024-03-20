@@ -2,7 +2,7 @@
 import paho.mqtt.client as mqtt
 import time
 
-broker_address = "test.mosquitto.org"
+broker_address = "localhost"
 broker_port = 1883
 
 # Callback functions for MQTT events
